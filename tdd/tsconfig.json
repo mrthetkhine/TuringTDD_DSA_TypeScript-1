@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "types": ["jest", "node"],
+    "lib": ["es2022", "dom"]
+  },
+  "include": ["src/**/*.ts","tests/*.ts"],
+  //"exclude": ["node_modules"]
+}

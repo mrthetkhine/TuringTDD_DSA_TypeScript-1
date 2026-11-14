@@ -1,0 +1,14 @@
+{
+	"scripts": {
+		"test": "jest",
+		"test:watch": "jest --watch"
+	},
+	"devDependencies": {
+		"jest": "^29.0.0",
+		"@babel/preset-typescript": "^8.0.7",
+		"@jest/globals": "^30.5.2",
+		"@tsconfig/node20": "^20.1.11",
+		"@types/jest": "^30.0.0",
+		"ts-jest": "^29.4.15"
+	}
+}
