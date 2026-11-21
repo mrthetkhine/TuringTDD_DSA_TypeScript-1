@@ -1,13 +1,5 @@
-class Engine
-{
-    constructor() {
-    }
-    start()
-    {
-        console.log('Engine started');
-    }
-}
-class Car
+import Engine from "./Engine";
+export default class Car
 {
     engine:Engine;
     constructor(engine:Engine) {
@@ -16,9 +8,7 @@ class Car
     start()
     {
         console.log('Car Started');
-        this.engine.start();
+        console.log('Engine ',this.engine);
+        console.log('Engine return ',this.engine.start());
     }
 }
-let engine =new Engine();
-let car = new Car(engine);
-car.start();
