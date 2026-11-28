@@ -7,8 +7,9 @@ export default class Car
     }
     start()
     {
-        console.log('Car Started');
-        console.log('Engine ',this.engine);
-        console.log('Engine return ',this.engine.start());
+        //console.log('Car Started');
+        //console.log('Engine ',this.engine);
+        this.engine.start();
+        //console.log('Engine return ',);
     }
 }
